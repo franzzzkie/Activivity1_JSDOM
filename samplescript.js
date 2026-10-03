@@ -10,7 +10,8 @@ const backgroundColors = ['#d1fae5', '#dbeafe', '#fef3c7', '#fce7f3'];
 let backgroundColorIndex = -1;
 
 buttonName.addEventListener('click', function () {
-    studentName.textContent = 'Maria Santos';
+    studentName.textContent =
+        studentName.textContent === 'Juan Dela Cruz' ? 'Maria Santos' : 'Juan Dela Cruz';
     detailsStudentName.textContent = studentName.textContent;
 });
 
